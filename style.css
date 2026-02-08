@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    line-height: 1.7;
+    color: #222;
+    background-color: #ffffff;
+}
+
+.site-header {
+    background: linear-gradient(135deg, #1f2933, #111827);
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+}
+
+.header-text h2 {
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.tagline {
+    font-size: 1rem;
+    opacity: 0.85;
+}
+
+.hero {
+    background-color: #f4f6f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 900px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.content-section {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.alt-background {
+    background-color: #f9fafb;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.styled-list {
+    padding-left: 20px;
+}
+
+.styled-list li {
+    margin-bottom: 8px;
+}
+
+.site-footer {
+    background-color: #111827;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: auto;
+}
