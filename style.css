@@ -6,27 +6,38 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     color: #1f2933;
-    background-color: #ffffff;
 }
 
 /* ================= NAVBAR ================= */
 .navbar {
-    background-color: #ffffff;
+    background: #ffffff;
     border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .nav-container {
     max-width: 1200px;
     margin: auto;
-    padding: 16px 24px;
+    padding: 12px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand img {
+    height: 40px;
+}
+
+.brand span {
     font-weight: 600;
-    font-size: 1.1rem;
 }
 
 .nav-links {
@@ -34,7 +45,6 @@ body {
     display: flex;
     gap: 24px;
     margin: 0;
-    padding: 0;
 }
 
 .nav-links a {
@@ -51,23 +61,25 @@ body {
 .hero {
     background: linear-gradient(135deg, #0f172a, #1e293b);
     color: white;
-    text-align: center;
-    padding: 90px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 80px 8%;
+    gap: 40px;
 }
 
-.hero h1 {
+.hero-text h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.8rem;
-    margin-bottom: 10px;
 }
 
-.hero h2 {
+.hero-text h2 {
     font-size: 1.4rem;
-    margin-bottom: 10px;
 }
 
-.hero p {
-    opacity: 0.9;
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* ================= SECTIONS ================= */
@@ -78,11 +90,11 @@ body {
 }
 
 .section.light {
-    background-color: #ffffff;
+    background: #ffffff;
 }
 
 .section.grey {
-    background-color: #f8fafc;
+    background: #f8fafc;
 }
 
 .section h3 {
@@ -92,7 +104,7 @@ body {
 }
 
 .section h4 {
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .section ul {
@@ -105,7 +117,7 @@ body {
 
 /* ================= FOOTER ================= */
 .footer {
-    background-color: #0f172a;
+    background: #0f172a;
     color: white;
     text-align: center;
     padding: 40px 20px;
