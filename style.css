@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     color: #1f2933;
+    background-color: #ffffff;
 }
 
 /* ================= NAVBAR ================= */
@@ -14,75 +15,59 @@ body {
     border-bottom: 1px solid #e5e7eb;
 }
 
-.navbar-container {
+.nav-container {
     max-width: 1200px;
     margin: auto;
-    padding: 15px 20px;
+    padding: 16px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-logo {
-    height: 45px;
+.brand {
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
-.nav-menu {
+.nav-links {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 24px;
     margin: 0;
     padding: 0;
 }
 
-.nav-menu li {
-    list-style: none;
-}
-
-.nav-menu a {
+.nav-links a {
     text-decoration: none;
-    font-size: 0.95rem;
     color: #1f2933;
+    font-size: 0.95rem;
 }
 
-.nav-menu a:hover {
+.nav-links a:hover {
     text-decoration: underline;
 }
 
-/* ================= HEADER ================= */
-.hero-header {
+/* ================= HERO ================= */
+.hero {
     background: linear-gradient(135deg, #0f172a, #1e293b);
     color: white;
-    padding: 80px 20px;
     text-align: center;
+    padding: 90px 20px;
 }
 
-.hero-header h1 {
-    font-family: 'Merriweather', serif;
+.hero h1 {
+    font-family: 'Playfair Display', serif;
     font-size: 2.8rem;
     margin-bottom: 10px;
 }
 
-.hero-header h2 {
+.hero h2 {
     font-size: 1.4rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.hero-header p {
+.hero p {
     opacity: 0.9;
-}
-
-/* ================= IMAGE ================= */
-.hero-image {
-    background-color: #f3f4f6;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.hero-image img {
-    max-width: 900px;
-    width: 100%;
-    border-radius: 10px;
 }
 
 /* ================= SECTIONS ================= */
@@ -92,28 +77,36 @@ body {
     padding: 80px 20px;
 }
 
-.section-light {
+.section.light {
     background-color: #ffffff;
 }
 
-.section-grey {
+.section.grey {
     background-color: #f8fafc;
 }
 
 .section h3 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 2rem;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .section h4 {
-    margin-top: 30px;
+    margin-top: 35px;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.section li {
+    margin-bottom: 8px;
 }
 
 /* ================= FOOTER ================= */
 .footer {
     background-color: #0f172a;
     color: white;
-    padding: 40px 20px;
     text-align: center;
+    padding: 40px 20px;
 }
